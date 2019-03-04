@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ChV-4M-MFB">
+            <objects>
+                <viewController id="vY8-rr-AdN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lNg-ou-Lzz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1D Loading Screen" translatesAutoresizingMaskIntoConstraints="NO" id="3nB-Of-RJz">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3nB-Of-RJz" firstAttribute="leading" secondItem="lNg-ou-Lzz" secondAttribute="leading" id="Ie2-ew-m7p"/>
+                            <constraint firstAttribute="trailing" secondItem="3nB-Of-RJz" secondAttribute="trailing" id="aE0-6V-2i8"/>
+                            <constraint firstAttribute="bottom" secondItem="3nB-Of-RJz" secondAttribute="bottom" id="fjm-aU-Z5y"/>
+                            <constraint firstItem="3nB-Of-RJz" firstAttribute="top" secondItem="lNg-ou-Lzz" secondAttribute="top" id="omv-nO-qIa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="EI0-Qf-eWe"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ryp-zl-tLR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-287.19999999999999" y="151.57421289355324"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1D Loading Screen" width="1125" height="2001"/>
+    </resources>
+</document>
