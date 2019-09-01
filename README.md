@@ -11,7 +11,7 @@ Below are some of the features that I have been implemented. Though, this is a s
 ![](https://github.com/turtlenecksweater/Negat-f/blob/master/edit.GIF)
 
 
-#### There are a few places that I can/will improve (any suggestions would be appreciated as well):
+#### There are a few places that can use improvement (any suggestions would be appreciated as well):
 1. [] Modifying image filter value ranges. For example, if you use the *Contrast* feature, the lowest value will make the image a grey color.
 2. [] Fixing the way images are reverted when a user wants to completely start from sratch. When they are starting from the original image and then try a filter, it will filter based upon the most recent filter added instead of filtering from the original photo.
 3. [] Fixing memory issues. I am using Metal/MetalKit but there is room for improvement.
